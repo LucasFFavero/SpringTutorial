@@ -1,10 +1,15 @@
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Fisica.java
-C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Pessoa.java
-C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Endereco.java
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\service\FisicaService.java
+C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\dto\assember\FisicaAssember.java
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\SpringtutorialApplication.java
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\utils\InstanceGenerator.java
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Juridica.java
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\repository\FisicaRepository.java
+C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\dto\FisicaDTO.java
+C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\dto\EnderecoDTO.java
+C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\mapper\FisicaMapper.java
+C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Pessoa.java
+C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Endereco.java
+C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\resource\FisicaResource.java
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Contato.java
 C:\Desenvolvimento\Unesp\SpringTutorial\springtutorial\src\main\java\br\unesp\rc\springtutorial\entity\Acesso.java

@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.unesp.rc.springtutorial.service.FisicaServiceTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 4, Time elapsed: 4.383 s <<< FAILURE! - in br.unesp.rc.springtutorial.service.FisicaServiceTest
-testDelete  Time elapsed: 0.287 s  <<< ERROR!
-org.springframework.dao.InvalidDataAccessApiUsageException: Entity must not be null!; nested exception is java.lang.IllegalArgumentException: Entity must not be null!
-	at br.unesp.rc.springtutorial.service.FisicaServiceTest.testDelete(FisicaServiceTest.java:70)
-Caused by: java.lang.IllegalArgumentException: Entity must not be null!
-	at br.unesp.rc.springtutorial.service.FisicaServiceTest.testDelete(FisicaServiceTest.java:70)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 4.192 s - in br.unesp.rc.springtutorial.service.FisicaServiceTest

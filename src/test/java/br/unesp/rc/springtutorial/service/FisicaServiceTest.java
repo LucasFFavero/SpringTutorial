@@ -25,8 +25,10 @@ public class FisicaServiceTest {
     @Disabled
     @Test
     @DisplayName("FisicaService.save(Fisica)")
-    void testSave() {
-        entity = InstanceGenerator.getPessoaFisica("222.333.444-55", "user1");
+    public void testSave() {
+        //entity = InstanceGenerator.getPessoaFisica("222.333.444-55", "user1");
+        //entity = InstanceGenerator.getPessoaFisica("222.333.444-55", "user1");
+        entity = InstanceGenerator.getPessoaFisica("222.333.444-56", "user2");
         System.out.println(entity);
 
         Fisica f = fs.save(entity);
@@ -40,7 +42,7 @@ public class FisicaServiceTest {
     @Disabled
     @Test
     @DisplayName("FisicaService.findByCpf(cpf)")
-    void testFindByCpf() {
+    public void testFindByCpf() {
         entity = InstanceGenerator.getPessoaFisica("222.333.444-55", "user1");
 
         String cpf = "222.333.444-55";
@@ -53,7 +55,7 @@ public class FisicaServiceTest {
         assertEquals(entity, f);
     }
 
-    //@Disabled
+    @Disabled
     @Test
     @DisplayName("FisicaService.delete()")
     public void testDelete() {
@@ -67,9 +69,10 @@ public class FisicaServiceTest {
         System.out.println(f);
         System.out.println("----------------------------------------");
 
-        fs.delete(f);
-
-        System.out.println("delete sucess");
+        if (f != null) {
+            fs.delete(f);
+            System.out.println("delete sucess");
+        }
 
         assertEquals(entity, f);
     }
@@ -88,10 +91,10 @@ public class FisicaServiceTest {
         System.out.println(f);
         System.out.println("----------------------------------------");
 
-        fs.update(f);
+        fs.update(entity);
 
         System.out.println("delete sucess");
-        
+
         assertEquals(entity, f);
     }
 

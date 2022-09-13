@@ -1,7 +1,7 @@
-br\unesp\rc\springtutorial\entity\Endereco.class
 br\unesp\rc\springtutorial\entity\Juridica.class
 br\unesp\rc\springtutorial\repository\FisicaRepository.class
+br\unesp\rc\springtutorial\entity\Acesso.class
+br\unesp\rc\springtutorial\entity\Endereco.class
 br\unesp\rc\springtutorial\entity\Contato.class
 br\unesp\rc\springtutorial\entity\Fisica.class
-br\unesp\rc\springtutorial\entity\Acesso.class
 br\unesp\rc\springtutorial\entity\Pessoa.class
