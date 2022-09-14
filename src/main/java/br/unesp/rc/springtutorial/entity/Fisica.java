@@ -6,6 +6,9 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -24,9 +27,12 @@ public class Fisica extends Pessoa {
 
     private static final long serialVersionUID = 1L;
 
-    @Column(name = "cpf", unique = true)
+    @NotBlank 
+    @Size(min = 11, max = 14)
+    @Column(name = "cpf", unique = true)    
     private String cpf;
-
+  
+    @NotNull
     @Temporal(TemporalType.TIMESTAMP)
     private Date dataNascimento;
 

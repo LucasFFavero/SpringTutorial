@@ -14,6 +14,7 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.validation.constraints.Size;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -37,6 +38,7 @@ public class Pessoa implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long idPessoa;
 
+    @Size(max = 120)
     private String nome;
 
     @OneToMany(
